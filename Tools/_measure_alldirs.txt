@@ -1,0 +1,5 @@
+Jog_Fwd  peakHorizSpeed=586.7  stanceMean=365.6  domAxis=Y  Xrange=16.8 Yrange=112.4
+Jog_Bwd  peakHorizSpeed=586.7  stanceMean=358.0  domAxis=Y  Xrange=16.7 Yrange=112.1
+Jog_Left peakHorizSpeed=563.5  stanceMean=365.7  domAxis=X  Xrange=115.0 Yrange=18.9
+Jog_Right peakHorizSpeed=520.8  stanceMean=342.9  domAxis=X  Xrange=109.2 Yrange=10.7
+=== done ===

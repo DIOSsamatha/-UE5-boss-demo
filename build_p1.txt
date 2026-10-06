@@ -1,0 +1,47 @@
+[Build] UBT 构建: cmd /c "K:\UE_5.7\Engine\Build\BatchFiles\Build.bat demoEditor Win64 Development -Project=K:\selfgame\demo\demo.uproject -WaitMutex -FromMsBuild -NoUBA"
+[Build] UBT 结束，exit code = 6
+[Build] 子进程退出码行 25 条，真实编译诊断 0 条
+[Build] 判定：UBT 能启动 cl.exe 但进程被秒退且无任何诊断 —— 属于环境级故障
+[Build] 不是代码错误，自动回退手工构建
+[Build] 改走手工编译+链接（Tools/ManualBuild.py）
+========== ManualBuild 开始 2026-09-25 19:07:37 ==========
+[manual] 响应文件 37 个：需编译 25，已最新跳过 12，并行度 2
+  [ 1/25] OK   BossAIController.cpp.obj.rsp                 3.9s
+  [ 2/25] OK   BossAbilities.cpp.obj.rsp                    5.1s
+  [ 3/25] OK   BossBrainComponent.cpp.obj.rsp               5.6s
+  [ 4/25] OK   BossCharacterBase.cpp.obj.rsp                6.1s
+  [ 5/25] OK   CombatHUDWidget.cpp.obj.rsp                  7.9s
+  [ 6/25] FAIL DemoAbilitySystemLibrary.cpp.obj.rsp       rc=2   4.5s
+        ---- 输出 ----
+DemoAbilitySystemLibrary.cpp
+K:\selfgame\demo\Source\demo\Core\DemoAbilitySystemLibrary.cpp(738,18): error C2248: ��ADemoCharacterBase::bHasAnomalyBars��: �޷����� protected ��Ա(�ڡ�ADemoCharacterBase����������)
+		if (!TargetChar->bHasAnomalyBars)
+		               ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(189,7): note: �μ���ADemoCharacterBase::bHasAnomalyBars��������
+	bool bHasAnomalyBars = false;
+	     ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(31,16): note: �μ���ADemoCharacterBase��������
+class DEMO_API ADemoCharacterBase : public ACharacter, public IAbilitySystemInterface
+               ^
+        ----------------
+  [ 7/25] OK   DemoAttributeSet.cpp.obj.rsp                 4.7s
+  [ 8/25] OK   DemoCharacterBase.cpp.obj.rsp                7.5s
+  [ 9/25] OK   DemoCombatNotifies.cpp.obj.rsp               4.4s
+  [10/25] OK   DemoDamageExecution.cpp.obj.rsp              4.5s
+  [11/25] OK   DemoGameplayAbility.cpp.obj.rsp              4.2s
+  [12/25] OK   DemoGameplayEffectHelpers.cpp.obj.rsp        3.4s
+  [13/25] OK   DemoGameplayEffects.cpp.obj.rsp              4.5s
+  [14/25] OK   DemoGameplayTags.cpp.obj.rsp                 4.2s
+  [15/25] OK   DemoNameplateWidget.cpp.obj.rsp              5.8s
+  [16/25] OK   DemoProjectile.cpp.obj.rsp                   4.5s
+  [17/25] OK   DemoStatusEffects.cpp.obj.rsp                4.2s
+  [18/25] OK   FightGameMode.cpp.obj.rsp                    5.9s
+  [19/25] OK   FightPlayerCharacter.cpp.obj.rsp             7.5s
+  [20/25] OK   LockOnComponent.cpp.obj.rsp                  4.8s
+  [21/25] OK   Module.demo.1.cpp.obj.rsp                    4.9s
+  [22/25] OK   Module.demo.2.cpp.obj.rsp                    6.0s
+  [23/25] OK   Module.demo.3.cpp.obj.rsp                    6.4s
+  [24/25] OK   Module.demo.4.cpp.obj.rsp                    6.5s
+  [25/25] OK   PlayerAbilities.cpp.obj.rsp                  5.2s
+[manual] 编译完成：成功 24，失败 1
+========== ManualBuild 结束，结果: 失败 ==========

@@ -1,0 +1,7 @@
+﻿DIR: K:\selfgame\demo\Saved\Logs
+  demo.log  245326  09/26/2026 19:05:46
+  cef3.log  480  09/26/2026 18:56:46
+  demo-backup-2026.09.26-07.15.48.log  157348  09/26/2026 15:15:48
+  cef3-backup-2026.09.26-07.15.46.log  613  09/26/2026 15:15:46
+  demo-backup-2026.09.26-07.14.07.log  177258  09/26/2026 15:14:07
+DIR: K:\selfgame\demo\Saved

@@ -1,0 +1,38 @@
+﻿[Build] UBT 鏋勫缓: cmd /c "K:\UE_5.7\Engine\Build\BatchFiles\Build.bat demoEditor Win64 Development -Project=K:\selfgame\demo\demo.uproject -WaitMutex -FromMsBuild -NoUBA"
+[Build] UBT 缁撴潫锛宔xit code = 6
+[Build] 瀛愯繘绋嬮€€鍑虹爜琛?15 鏉★紝鐪熷疄缂栬瘧璇婃柇 0 鏉?
+[Build] 鍒ゅ畾锛歎BT 鑳藉惎鍔?cl.exe 浣嗚繘绋嬭绉掗€€涓旀棤浠讳綍璇婃柇 鈥斺€?灞炰簬鐜绾ф晠闅?
+[Build] 涓嶆槸浠ｇ爜閿欒锛岃嚜鍔ㄥ洖閫€鎵嬪伐鏋勫缓
+[Build] 鏀硅蛋鎵嬪伐缂栬瘧+閾炬帴锛圱ools/ManualBuild.py锛?
+========== ManualBuild 寮€濮?2026-09-30 21:36:27 ==========
+[manual] 鍝嶅簲鏂囦欢 37 涓細闇€缂栬瘧 15锛屽凡鏈€鏂拌烦杩?22锛屽苟琛屽害 2
+  [ 1/15] OK   BossAIController.cpp.obj.rsp                 7.7s
+  [ 2/15] OK   BossAbilities.cpp.obj.rsp                    8.1s
+  [ 3/15] OK   BossBrainComponent.cpp.obj.rsp               5.7s
+  [ 4/15] OK   BossCharacterBase.cpp.obj.rsp                5.4s
+  [ 5/15] OK   CombatHUDWidget.cpp.obj.rsp                  6.5s
+  [ 6/15] OK   DemoAbilitySystemLibrary.cpp.obj.rsp         4.2s
+  [ 7/15] OK   DemoCharacterBase.cpp.obj.rsp                6.0s
+  [ 8/15] OK   DemoDamageExecution.cpp.obj.rsp              3.6s
+  [ 9/15] OK   DemoGameplayEffects.cpp.obj.rsp              3.6s
+  [10/15] OK   FightGameMode.cpp.obj.rsp                    5.0s
+  [11/15] OK   FightPlayerCharacter.cpp.obj.rsp             6.0s
+  [12/15] OK   Module.demo.1.cpp.obj.rsp                    4.4s
+  [13/15] OK   Module.demo.2.cpp.obj.rsp                    5.4s
+  [14/15] OK   Module.demo.4.cpp.obj.rsp                    5.6s
+  [15/15] OK   PlayerAbilities.cpp.obj.rsp                  4.6s
+[manual] 缂栬瘧瀹屾垚锛氭垚鍔?15锛屽け璐?0
+[manual] 閾炬帴杈撳嚭鐩爣: /OUT:"K:/selfgame/demo/Binaries/Win64/UnrealEditor-demo.dll"
+[manual] 鏈?15 涓?obj 姣?DLL 鏂帮紝闇€瑕侀噸鏂伴摼鎺?
+[manual] 寮€濮嬮摼鎺?...
+[manual] link.exe rc=0  鑰楁椂 1.7s
+[manual] 閾炬帴鎴愬姛銆?
+[manual] DLL: K:\selfgame\demo\Binaries\Win64\UnrealEditor-demo.dll  (1946112 bytes, 2026-09-30 21:37:12)
+[manual] 鐢熸垚 import lib ...
+[manual] link.exe /LIB rc=0
+锟斤拷锟节达拷锟斤拷锟斤拷 K:/selfgame/demo/Intermediate/Build/Win64/x64/UnrealEditor/Development/demo/UnrealEditor-demo.lib 锟酵讹拷锟斤拷 K:/selfgame/demo/Intermediate/Build/Win64/x64/UnrealEditor/Development/demo/UnrealEditor-demo.exp
+[manual] import lib 鐢熸垚鎴愬姛: K:\selfgame\demo\Intermediate\Build\Win64\x64\UnrealEditor\Development\demo\UnrealEditor-demo.lib
+[manual] 鐢熸垚 target 鍏冩暟鎹?...
+[manual] WriteMetadata rc=0
+[manual] target 鍏冩暟鎹敓鎴愭垚鍔? K:\selfgame\demo\Binaries\Win64\demoEditor.target
+========== ManualBuild 缁撴潫锛岀粨鏋? 鎴愬姛 ==========

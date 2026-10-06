@@ -1,0 +1,46 @@
+[Build] UBT 构建: cmd /c "K:\UE_5.7\Engine\Build\BatchFiles\Build.bat demoEditor Win64 Development -Project=K:\selfgame\demo\demo.uproject -WaitMutex -FromMsBuild -NoUBA"
+[Build] UBT 结束，exit code = 6
+[Build] 子进程退出码行 23 条，真实编译诊断 0 条
+[Build] 判定：UBT 能启动 cl.exe 但进程被秒退且无任何诊断 —— 属于环境级故障
+[Build] 不是代码错误，自动回退手工构建
+[Build] 改走手工编译+链接（Tools/ManualBuild.py）
+========== ManualBuild 开始 2026-09-25 20:18:43 ==========
+[manual] 响应文件 37 个：需编译 23，已最新跳过 14，并行度 2
+  [ 1/23] OK   BossAIController.cpp.obj.rsp                 3.2s
+  [ 2/23] OK   BossAbilities.cpp.obj.rsp                    4.1s
+  [ 3/23] OK   BossBrainComponent.cpp.obj.rsp               4.5s
+  [ 4/23] OK   BossCharacterBase.cpp.obj.rsp                4.9s
+  [ 5/23] OK   CombatHUDWidget.cpp.obj.rsp                  6.6s
+  [ 6/23] OK   DemoAbilitySystemLibrary.cpp.obj.rsp         4.1s
+  [ 7/23] OK   DemoAttributeSet.cpp.obj.rsp                 3.4s
+  [ 8/23] OK   DemoCharacterBase.cpp.obj.rsp                5.7s
+  [ 9/23] OK   DemoCombatNotifies.cpp.obj.rsp               3.3s
+  [10/23] OK   DemoDamageExecution.cpp.obj.rsp              3.3s
+  [11/23] OK   DemoGameplayAbility.cpp.obj.rsp              3.2s
+  [12/23] OK   DemoGameplayEffects.cpp.obj.rsp              3.5s
+  [13/23] OK   DemoGameplayTags.cpp.obj.rsp                 3.0s
+  [14/23] OK   DemoNameplateWidget.cpp.obj.rsp              4.7s
+  [15/23] OK   DemoProjectile.cpp.obj.rsp                   3.4s
+  [16/23] OK   DemoStatusEffects.cpp.obj.rsp                3.5s
+  [17/23] OK   FightGameMode.cpp.obj.rsp                    4.9s
+  [18/23] OK   FightPlayerCharacter.cpp.obj.rsp             5.6s
+  [19/23] OK   LockOnComponent.cpp.obj.rsp                  3.7s
+  [20/23] OK   Module.demo.1.cpp.obj.rsp                    4.3s
+  [21/23] OK   Module.demo.2.cpp.obj.rsp                    5.4s
+  [22/23] OK   Module.demo.4.cpp.obj.rsp                    5.2s
+  [23/23] OK   PlayerAbilities.cpp.obj.rsp                  4.2s
+[manual] 编译完成：成功 23，失败 0
+[manual] 链接输出目标: /OUT:"K:/selfgame/demo/Binaries/Win64/UnrealEditor-demo.dll"
+[manual] 有 23 个 obj 比 DLL 新，需要重新链接
+[manual] 开始链接 ...
+[manual] link.exe rc=0  耗时 1.4s
+[manual] 链接成功。
+[manual] DLL: K:\selfgame\demo\Binaries\Win64\UnrealEditor-demo.dll  (1795072 bytes, 2026-09-25 20:19:33)
+[manual] 生成 import lib ...
+[manual] link.exe /LIB rc=0
+���ڴ����� K:/selfgame/demo/Intermediate/Build/Win64/x64/UnrealEditor/Development/demo/UnrealEditor-demo.lib �Ͷ��� K:/selfgame/demo/Intermediate/Build/Win64/x64/UnrealEditor/Development/demo/UnrealEditor-demo.exp
+[manual] import lib 生成成功: K:\selfgame\demo\Intermediate\Build\Win64\x64\UnrealEditor\Development\demo\UnrealEditor-demo.lib
+[manual] 生成 target 元数据 ...
+[manual] WriteMetadata rc=0
+[manual] target 元数据生成成功: K:\selfgame\demo\Binaries\Win64\demoEditor.target
+========== ManualBuild 结束，结果: 成功 ==========

@@ -1,0 +1,5 @@
+﻿09/09/2026 18:37:36  175674  K:\selfgame\demo\demo.sln
+09/14/2026 10:34:33  459  K:\selfgame\demo\demo.uproject
+MISSING  K:\selfgame\demo\demo.sln.DotSettings
+09/09/2026 18:44:06  96768  K:\selfgame\demo\.vs\demo\v17\.suo
+MISSING  K:\selfgame\demo\.vs\demo\v16\.suo

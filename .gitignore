@@ -1,0 +1,27 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.opendb
+*.sln
+*.sln.docstates
+
+# UE5 中间文件（大头）
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+Build/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/DerivedDataCache/
+
+# 编译文件
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# 系统
+Thumbs.db
+.DS_Store

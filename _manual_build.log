@@ -1,0 +1,53 @@
+﻿========== ManualBuild 寮€濮?2026-10-01 00:16:11 ==========
+[manual] 鍝嶅簲鏂囦欢 37 涓細闇€缂栬瘧 37锛屽凡鏈€鏂拌烦杩?0锛屽苟琛屽害 2
+  [ 1/37] OK   BossAIController.cpp.obj.rsp                 3.2s
+  [ 2/37] OK   BossAbilities.cpp.obj.rsp                    4.1s
+  [ 3/37] OK   BossBrainComponent.cpp.obj.rsp               5.2s
+  [ 4/37] OK   BossCharacterBase.cpp.obj.rsp                5.2s
+  [ 5/37] OK   BossCombatData.cpp.obj.rsp                   3.0s
+  [ 6/37] OK   CombatHUDWidget.cpp.obj.rsp                  6.1s
+  [ 7/37] OK   DemoAbilitySystemGlobals.cpp.obj.rsp         2.8s
+  [ 8/37] OK   DemoAbilitySystemLibrary.cpp.obj.rsp         4.3s
+  [ 9/37] OK   DemoAttributeSet.cpp.obj.rsp                 3.3s
+  [10/37] OK   DemoCharacterBase.cpp.obj.rsp                5.5s
+  [11/37] OK   DemoCombatNotifies.cpp.obj.rsp               3.1s
+  [12/37] OK   DemoDamageExecution.cpp.obj.rsp              3.4s
+  [13/37] OK   DemoDamageNumberLayer.cpp.obj.rsp            4.6s
+  [14/37] OK   DemoEffectContext.cpp.obj.rsp                2.9s
+  [15/37] OK   DemoGameplayAbility.cpp.obj.rsp              3.1s
+  [16/37] OK   DemoGameplayEffectHelpers.cpp.obj.rsp        2.7s
+  [17/37] OK   DemoGameplayEffects.cpp.obj.rsp              3.5s
+  [18/37] OK   DemoGameplayTags.cpp.obj.rsp                 3.0s
+  [19/37] OK   DemoHitStopSubsystem.cpp.obj.rsp             0.7s
+  [20/37] OK   DemoImpactBurst.cpp.obj.rsp                  0.6s
+  [21/37] OK   DemoNameplateWidget.cpp.obj.rsp              4.8s
+  [22/37] OK   DemoProjectile.cpp.obj.rsp                   3.6s
+  [23/37] OK   DemoStatusBarWidget.cpp.obj.rsp              2.7s
+  [24/37] OK   DemoStatusEffects.cpp.obj.rsp                3.4s
+  [25/37] OK   DemoTrailComponent.cpp.obj.rsp               1.0s
+  [26/37] OK   FightGameMode.cpp.obj.rsp                    5.0s
+  [27/37] OK   FightPlayerCharacter.cpp.obj.rsp             5.9s
+  [28/37] OK   FightPlayerController.cpp.obj.rsp            0.4s
+  [29/37] OK   LockOnComponent.cpp.obj.rsp                  3.8s
+  [30/37] OK   Module.demo.1.cpp.obj.rsp                    4.1s
+  [31/37] OK   Module.demo.2.cpp.obj.rsp                    5.2s
+  [32/37] OK   Module.demo.3.cpp.obj.rsp                    5.2s
+  [33/37] OK   Module.demo.4.cpp.obj.rsp                    5.3s
+  [34/37] OK   Module.demo.5.cpp.obj.rsp                    0.4s
+  [35/37] OK   PerModuleInline.gen.cpp.obj.rsp              0.4s
+  [36/37] OK   PlayerAbilities.cpp.obj.rsp                  4.6s
+  [37/37] OK   demo.cpp.obj.rsp                             0.4s
+[manual] 缂栬瘧瀹屾垚锛氭垚鍔?37锛屽け璐?0
+[manual] 閾炬帴杈撳嚭鐩爣: /OUT:"K:/selfgame/demo/Binaries/Win64/UnrealEditor-demo.dll"
+[manual] 寮€濮嬮摼鎺?...
+[manual] link.exe rc=0  鑰楁椂 1.4s
+[manual] 閾炬帴鎴愬姛銆?
+[manual] DLL: K:\selfgame\demo\Binaries\Win64\UnrealEditor-demo.dll  (1956864 bytes, 2026-10-01 00:17:16)
+[manual] 鐢熸垚 import lib ...
+[manual] link.exe /LIB rc=0
+锟斤拷锟节达拷锟斤拷锟斤拷 K:/selfgame/demo/Intermediate/Build/Win64/x64/UnrealEditor/Development/demo/UnrealEditor-demo.lib 锟酵讹拷锟斤拷 K:/selfgame/demo/Intermediate/Build/Win64/x64/UnrealEditor/Development/demo/UnrealEditor-demo.exp
+[manual] import lib 鐢熸垚鎴愬姛: K:\selfgame\demo\Intermediate\Build\Win64\x64\UnrealEditor\Development\demo\UnrealEditor-demo.lib
+[manual] 鐢熸垚 target 鍏冩暟鎹?...
+[manual] WriteMetadata rc=0
+[manual] target 鍏冩暟鎹敓鎴愭垚鍔? K:\selfgame\demo\Binaries\Win64\demoEditor.target
+========== ManualBuild 缁撴潫锛岀粨鏋? 鎴愬姛 ==========

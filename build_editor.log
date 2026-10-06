@@ -1,0 +1,7 @@
+Using bundled DotNet SDK version: 8.0.412 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" demoEditor Win64 Development -Project=K:/selfgame/demo/demo.uproject -WaitMutex -FromMsBuild -NoUBA
+Log file: C:\Users\wdnmd\AppData\Local\UnrealBuildTool\Log.txt
+Unable to build while Live Coding is active. Exit the editor and game, or press Ctrl+Alt+F11 if iterating on code in the editor or game
+
+Result: Failed (OtherCompilationError)
+Total execution time: 2.77 seconds

@@ -1,0 +1,29 @@
+﻿Python 3.12.10
+[Build] UBT 鏋勫缓: cmd /c "K:\UE_5.7\Engine\Build\BatchFiles\Build.bat demoEditor Win64 Development -Project=K:\selfgame\demo\demo.uproject -WaitMutex -FromMsBuild -NoUBA"
+[Build] UBT 缁撴潫锛宔xit code = 0
+EXIT=0
+[Build] UBT 鏋勫缓: cmd /c "K:\UE_5.7\Engine\Build\BatchFiles\Build.bat demoEditor Win64 Development -Project=K:\selfgame\demo\demo.uproject -WaitMutex -FromMsBuild -NoUBA"
+[Build] UBT 缁撴潫锛宔xit code = 6
+[Build] 瀛愯繘绋嬮€€鍑虹爜琛?1 鏉★紝鐪熷疄缂栬瘧璇婃柇 0 鏉?
+[Build] 鍒ゅ畾锛歎BT 鑳藉惎鍔?cl.exe 浣嗚繘绋嬭绉掗€€涓旀棤浠讳綍璇婃柇 鈥斺€?灞炰簬鐜绾ф晠闅?
+[Build] 涓嶆槸浠ｇ爜閿欒锛岃嚜鍔ㄥ洖閫€鎵嬪伐鏋勫缓
+[Build] 鏀硅蛋鎵嬪伐缂栬瘧+閾炬帴锛圱ools/ManualBuild.py锛?
+========== ManualBuild 寮€濮?2026-09-30 00:31:06 ==========
+[manual] 鍝嶅簲鏂囦欢 37 涓細闇€缂栬瘧 1锛屽凡鏈€鏂拌烦杩?36锛屽苟琛屽害 2
+  [ 1/1] OK   BossBrainComponent.cpp.obj.rsp               4.8s
+[manual] 缂栬瘧瀹屾垚锛氭垚鍔?1锛屽け璐?0
+[manual] 閾炬帴杈撳嚭鐩爣: /OUT:"K:/selfgame/demo/Binaries/Win64/UnrealEditor-demo.dll"
+[manual] 鏈?1 涓?obj 姣?DLL 鏂帮紝闇€瑕侀噸鏂伴摼鎺?
+[manual] 寮€濮嬮摼鎺?...
+[manual] link.exe rc=0  鑰楁椂 1.5s
+[manual] 閾炬帴鎴愬姛銆?
+[manual] DLL: K:\selfgame\demo\Binaries\Win64\UnrealEditor-demo.dll  (1923072 bytes, 2026-09-30 00:31:12)
+[manual] 鐢熸垚 import lib ...
+[manual] link.exe /LIB rc=0
+锟斤拷锟节达拷锟斤拷锟斤拷 K:/selfgame/demo/Intermediate/Build/Win64/x64/UnrealEditor/Development/demo/UnrealEditor-demo.lib 锟酵讹拷锟斤拷 K:/selfgame/demo/Intermediate/Build/Win64/x64/UnrealEditor/Development/demo/UnrealEditor-demo.exp
+[manual] import lib 鐢熸垚鎴愬姛: K:\selfgame\demo\Intermediate\Build\Win64\x64\UnrealEditor\Development\demo\UnrealEditor-demo.lib
+[manual] 鐢熸垚 target 鍏冩暟鎹?...
+[manual] WriteMetadata rc=0
+[manual] target 鍏冩暟鎹敓鎴愭垚鍔? K:\selfgame\demo\Binaries\Win64\demoEditor.target
+========== ManualBuild 缁撴潫锛岀粨鏋? 鎴愬姛 ==========
+EXIT=0

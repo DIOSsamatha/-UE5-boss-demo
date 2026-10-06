@@ -1,0 +1,432 @@
+[Build] UBT 构建: cmd /c "K:\UE_5.7\Engine\Build\BatchFiles\Build.bat demoEditor Win64 Development -Project=K:\selfgame\demo\demo.uproject -WaitMutex -FromMsBuild -NoUBA"
+[Build] UBT 结束，exit code = 6
+[Build] 子进程退出码行 17 条，真实编译诊断 0 条
+[Build] 判定：UBT 能启动 cl.exe 但进程被秒退且无任何诊断 —— 属于环境级故障
+[Build] 不是代码错误，自动回退手工构建
+[Build] 改走手工编译+链接（Tools/ManualBuild.py）
+========== ManualBuild 开始 2026-09-25 19:42:12 ==========
+[manual] 响应文件 37 个：需编译 17，已最新跳过 20，并行度 2
+  [ 1/17] FAIL BossAIController.cpp.obj.rsp               rc=2   3.9s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [ 2/17] FAIL BossAbilities.cpp.obj.rsp                  rc=2   3.9s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoGameplayAbility.generated.h(21,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoGameplayAbility.generated.h(21,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [ 3/17] FAIL BossBrainComponent.cpp.obj.rsp             rc=2   3.5s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [ 4/17] FAIL BossCharacterBase.cpp.obj.rsp              rc=2   3.6s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [ 5/17] FAIL CombatHUDWidget.cpp.obj.rsp                rc=2   4.7s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Source\demo\UI\CombatHUDWidget.h(29,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Source\demo\UI\CombatHUDWidget.h(29,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [ 6/17] OK   DemoAbilitySystemLibrary.cpp.obj.rsp         4.0s
+  [ 7/17] FAIL DemoCharacterBase.cpp.obj.rsp              rc=2   4.2s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [ 8/17] FAIL DemoCombatNotifies.cpp.obj.rsp             rc=2   2.7s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [ 9/17] FAIL DemoNameplateWidget.cpp.obj.rsp            rc=2   3.7s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [10/17] FAIL DemoProjectile.cpp.obj.rsp                 rc=2   2.8s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [11/17] FAIL FightGameMode.cpp.obj.rsp                  rc=2   3.8s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Source\demo\UI\CombatHUDWidget.h(29,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Source\demo\UI\CombatHUDWidget.h(29,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [12/17] FAIL FightPlayerCharacter.cpp.obj.rsp           rc=2   4.1s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [13/17] FAIL LockOnComponent.cpp.obj.rsp                rc=2   2.9s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [14/17] FAIL Module.demo.1.cpp.obj.rsp                  rc=2   3.2s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoGameplayAbility.generated.h(21,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoGameplayAbility.generated.h(21,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [15/17] OK   Module.demo.2.cpp.obj.rsp                    5.0s
+  [16/17] FAIL Module.demo.4.cpp.obj.rsp                  rc=2   4.0s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoCharacterBase.generated.h(19,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+  [17/17] FAIL PlayerAbilities.cpp.obj.rsp                rc=2   3.3s
+        ---- 输出 ----
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,58): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                        ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoGameplayAbility.generated.h(21,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(163,72): error C2039: "GetAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetAnomalyElement() const { return AttributeSet ? AttributeSet->GetAnomalyElement() : 0.f; }
+	                                                                      ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,61): error C2027: ʹ����δ�������͡�UDemoAttributeSet��
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                           ^
+K:\selfgame\demo\Intermediate\Build\Win64\UnrealEditor\Inc\demo\UHT\DemoGameplayAbility.generated.h(21,7): note: �μ���UDemoAttributeSet��������
+class UDemoAttributeSet;
+      ^
+K:\selfgame\demo\Source\demo\Core\DemoCharacterBase.h(166,75): error C2039: "GetMaxAnomalyElement": ���� "TObjectPtr<UDemoAttributeSet>" �ĳ�Ա
+	float GetMaxAnomalyElement() const { return AttributeSet ? AttributeSet->GetMaxAnomalyElement() : 0.f; }
+	                                                                         ^
+K:\UE_5.7\Engine\Source\Runtime\CoreUObject\Public\UObject\ObjectPtr.h(487,8): note: �μ���TObjectPtr<UDemoAttributeSet>��������
+struct TObjectPtr
+       ^
+        ----------------
+[manual] 编译完成：成功 2，失败 15
+========== ManualBuild 结束，结果: 失败 ==========

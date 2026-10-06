@@ -1,0 +1,24 @@
+========== Build started ==========
+Using bundled DotNet SDK version: 8.0.412 win-x64
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" demoEditor Win64 Development -Project=K:\selfgame\demo\demo.uproject -WaitMutex -FromMsBuild -NoUBA
+Log file: C:\Users\wdnmd\AppData\Local\UnrealBuildTool\Log.txt
+Building demoEditor...
+Using Visual Studio 2022 14.44.35228 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from demo unity file: demo.cpp, BossAbilities.cpp, DemoGameplayAbility.cpp, PlayerAbilities.cpp, DemoCombatNotifies.cpp, BossAIController.cpp, BossBrainComponent.cpp, BossCharacterBase.cpp, BossCombatData.cpp, DemoHitCameraShake.cpp, DemoHitStopSubsystem.cpp, DemoImpactBurst.cpp, DemoProjectile.cpp, DemoTrailComponent.cpp, DemoAbilitySystemGlobals.cpp, DemoAbilitySystemLibrary.cpp, DemoAttributeSet.cpp, DemoCharacterBase.cpp, DemoEffectContext.cpp, DemoGameplayTags.cpp, DemoDamageExecution.cpp, DemoGameplayEffectHelpers.cpp, DemoGameplayEffects.cpp, DemoStatusEffects.cpp, FightGameMode.cpp, FightPlayerCharacter.cpp, FightPlayerController.cpp, LockOnComponent.cpp, CombatHUDWidget.cpp, DemoDamageNumberLayer.cpp, DemoNameplateWidget.cpp, DemoStatusBarWidget.cpp
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+  Requested 1.5 GB memory per action, 5.39 GB available: limiting max parallel actions to 3
+Using Parallel executor to run 4 action(s)
+------ Building 4 action(s) started ------
+[1/4] Compile [x64] CombatHUDWidget.cpp
+[2/4] Link [x64] UnrealEditor-demo.lib
+  正在创建库 K:/selfgame/demo/Intermediate/Build/Win64/x64/UnrealEditor/Development/demo/UnrealEditor-demo.lib 和对象 K:/selfgame/demo/Intermediate/Build/Win64/x64/UnrealEditor/Development/demo/UnrealEditor-demo.exp
+[3/4] Link [x64] UnrealEditor-demo.dll
+[4/4] WriteMetadata demoEditor.target
+
+Total time in Parallel executor: 9.52 seconds
+
+Result: Succeeded
+Total execution time: 11.13 seconds
+
+========== Build exit code: 0 ==========

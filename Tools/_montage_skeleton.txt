@@ -1,0 +1,31 @@
+==========================================================================
+蒙太奇骨架核对
+==========================================================================
+[MISS] player 蓝图没找到: /Game/FightPlayer/BP_FightPlayer
+[MISS] boss 蓝图没找到: /Game/Boss/BP_Boss
+
+--- 玩家（期望骨架 None）---
+  [!! ] Heal_Drink_Montage         骨架=None
+        Slot=<读不到: AnimMontage: Failed to find property 'slot_anim_tracks' for attribute 'slot_anim_tracks' on 'AnimMontage'>
+  [!! ] Parry_Enter_Montage        骨架=None
+        Slot=<读不到: AnimMontage: Failed to find property 'slot_anim_tracks' for attribute 'slot_anim_tracks' on 'AnimMontage'>
+  [!! ] Parry_Exit_Montage         骨架=None
+        Slot=<读不到: AnimMontage: Failed to find property 'slot_anim_tracks' for attribute 'slot_anim_tracks' on 'AnimMontage'>
+  [!! ] Parry_Hold_Montage         骨架=None
+        Slot=<读不到: AnimMontage: Failed to find property 'slot_anim_tracks' for attribute 'slot_anim_tracks' on 'AnimMontage'>
+  [!! ] Parry_Montage              骨架=None
+        Slot=<读不到: AnimMontage: Failed to find property 'slot_anim_tracks' for attribute 'slot_anim_tracks' on 'AnimMontage'>
+
+--- BOSS（期望骨架 None）---
+  [!! ] Boss_Guard_Idle_Montage    骨架=None
+        Slot=<读不到: AnimMontage: Failed to find property 'slot_anim_tracks' for attribute 'slot_anim_tracks' on 'AnimMontage'>
+  [!! ] Boss_Idle_Montage          骨架=None
+        Slot=<读不到: AnimMontage: Failed to find property 'slot_anim_tracks' for attribute 'slot_anim_tracks' on 'AnimMontage'>
+  [!! ] Boss_Walk_Fwd_Montage      骨架=None
+        Slot=<读不到: AnimMontage: Failed to find property 'slot_anim_tracks' for attribute 'slot_anim_tracks' on 'AnimMontage'>
+  [!! ] Boss_Walk_Bwd_Montage      骨架=None
+        Slot=<读不到: AnimMontage: Failed to find property 'slot_anim_tracks' for attribute 'slot_anim_tracks' on 'AnimMontage'>
+  [!! ] Boss_Walk_Left_Montage     骨架=None
+        Slot=<读不到: AnimMontage: Failed to find property 'slot_anim_tracks' for attribute 'slot_anim_tracks' on 'AnimMontage'>
+  [!! ] Boss_Walk_Right_Montage    骨架=None
+        Slot=<读不到: AnimMontage: Failed to find property 'slot_anim_tracks' for attribute 'slot_anim_tracks' on 'AnimMontage'>

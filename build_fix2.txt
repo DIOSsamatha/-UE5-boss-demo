@@ -1,0 +1,4 @@
+[Build] UBT 构建: cmd /c "K:\UE_5.7\Engine\Build\BatchFiles\Build.bat demoEditor Win64 Development -Project=K:\selfgame\demo\demo.uproject -WaitMutex -FromMsBuild -NoUBA"
+[Build] UBT 结束，exit code = 6
+[Build] 子进程退出码行 0 条，真实编译诊断 0 条
+[Build] 存在真实编译诊断，请查看 build_log.txt

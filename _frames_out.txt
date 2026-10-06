@@ -1,0 +1,21 @@
+[Extract] 视频: 【26届战斗策划求职】UE5高频交互Boss战Demo（已入职）.flv
+[Extract] 时长: 264.64
+[Extract] 000  t=7.9s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_000.jpg
+[Extract] 001  t=22.6s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_001.jpg
+[Extract] 002  t=37.2s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_002.jpg
+[Extract] 003  t=51.8s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_003.jpg
+[Extract] 004  t=66.5s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_004.jpg
+[Extract] 005  t=81.1s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_005.jpg
+[Extract] 006  t=95.7s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_006.jpg
+[Extract] 007  t=110.4s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_007.jpg
+[Extract] 008  t=125.0s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_008.jpg
+[Extract] 009  t=139.6s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_009.jpg
+[Extract] 010  t=154.3s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_010.jpg
+[Extract] 011  t=168.9s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_011.jpg
+[Extract] 012  t=183.5s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_012.jpg
+[Extract] 013  t=198.2s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_013.jpg
+[Extract] 014  t=212.8s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_014.jpg
+[Extract] 015  t=227.4s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_015.jpg
+[Extract] 016  t=242.1s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_016.jpg
+[Extract] 017  t=256.7s -> K:\selfgame\demo\Docs\ReferenceFrames\ref_017.jpg
+[Extract] 完成，共 18 帧 -> K:\selfgame\demo\Docs\ReferenceFrames

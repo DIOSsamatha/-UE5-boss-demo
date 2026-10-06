@@ -1,0 +1,14 @@
+=== MeasureJogRootBone start ===
+type=AnimSequence
+dur=2.0000
+ROOT name=Root  FAILED (too few)
+ROOT name=root  FAILED (too few)
+ROOT name=root_001  FAILED (too few)
+ROOT name=root_01  FAILED (too few)
+ERR: no root bone name worked
+=== MeasureJogRootBone v2 ===
+skel=Khaimera_Skeleton
+get_reference_skeleton err: AttributeError("'Skeleton' object has no attribute 'get_reference_skeleton'")
+skel.reference_skeleton err: AttributeError("'Skeleton' object has no attribute 'reference_skeleton'")
+get_bone_pose('Root') err: AttributeError("module 'unreal' has no attribute 'AnimPoseBoneEvaluationSpace'")
+=== done ===

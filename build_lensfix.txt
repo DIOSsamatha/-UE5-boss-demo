@@ -1,0 +1,29 @@
+[Build] UBT 构建: cmd /c "K:\UE_5.7\Engine\Build\BatchFiles\Build.bat demoEditor Win64 Development -Project=K:\selfgame\demo\demo.uproject -WaitMutex -FromMsBuild -NoUBA"
+[Build] UBT 结束，exit code = 6
+[Build] 子进程退出码行 6 条，真实编译诊断 0 条
+[Build] 判定：UBT 能启动 cl.exe 但进程被秒退且无任何诊断 —— 属于环境级故障
+[Build] 不是代码错误，自动回退手工构建
+[Build] 改走手工编译+链接（Tools/ManualBuild.py）
+========== ManualBuild 开始 2026-09-26 19:20:12 ==========
+[manual] 响应文件 37 个：需编译 6，已最新跳过 31，并行度 2
+  [ 1/6] OK   CombatHUDWidget.cpp.obj.rsp                 10.1s
+  [ 2/6] OK   FightGameMode.cpp.obj.rsp                    9.6s
+  [ 3/6] OK   FightPlayerCharacter.cpp.obj.rsp             5.9s
+  [ 4/6] OK   Module.demo.2.cpp.obj.rsp                    5.5s
+  [ 5/6] OK   Module.demo.4.cpp.obj.rsp                    5.2s
+  [ 6/6] OK   PlayerAbilities.cpp.obj.rsp                  4.3s
+[manual] 编译完成：成功 6，失败 0
+[manual] 链接输出目标: /OUT:"K:/selfgame/demo/Binaries/Win64/UnrealEditor-demo.dll"
+[manual] 有 12 个 obj 比 DLL 新，需要重新链接
+[manual] 开始链接 ...
+[manual] link.exe rc=0  耗时 1.4s
+[manual] 链接成功。
+[manual] DLL: K:\selfgame\demo\Binaries\Win64\UnrealEditor-demo.dll  (1870336 bytes, 2026-09-26 19:20:34)
+[manual] 生成 import lib ...
+[manual] link.exe /LIB rc=0
+���ڴ����� K:/selfgame/demo/Intermediate/Build/Win64/x64/UnrealEditor/Development/demo/UnrealEditor-demo.lib �Ͷ��� K:/selfgame/demo/Intermediate/Build/Win64/x64/UnrealEditor/Development/demo/UnrealEditor-demo.exp
+[manual] import lib 生成成功: K:\selfgame\demo\Intermediate\Build\Win64\x64\UnrealEditor\Development\demo\UnrealEditor-demo.lib
+[manual] 生成 target 元数据 ...
+[manual] WriteMetadata rc=0
+[manual] target 元数据生成成功: K:\selfgame\demo\Binaries\Win64\demoEditor.target
+========== ManualBuild 结束，结果: 成功 ==========

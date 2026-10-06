@@ -1,0 +1,36 @@
+====================================================================
+四方向行走动画 · 原生地面速度实测（BOSS MaxWalkSpeed = 380 cm/s）
+====================================================================
+
+支撑相 dY/dt 中位数 = 该方向推荐的 BossJogReferenceSpeed
+
+【Jog_Fwd】
+   时长 = 2.000s   Y跨度 = 112.3cm   Z范围 = 9.2 .. 71.8
+   支撑相后退速度：样本 166  中位=416.6  均值=364.8  最大=515.8
+   → 建议 BossJogReferenceSpeed = 417   （380/此值 = 0.91 倍速）
+
+【Jog_Bwd】
+   时长 = 2.000s   Y跨度 = 112.0cm   Z范围 = 9.2 .. 41.0
+   支撑相后退速度：样本 50  中位=428.2  均值=351.5  最大=598.6
+   → 建议 BossJogReferenceSpeed = 428   （380/此值 = 0.89 倍速）
+
+【Strafe_Left】
+   时长 = 2.167s   Y跨度 = 17.2cm   Z范围 = 9.5 .. 20.9
+   支撑相后退速度：样本 31  中位=11.6  均值=22.3  最大=140.1
+   → 建议 BossJogReferenceSpeed = 12   （380/此值 = 32.76 倍速）
+
+【Strafe_Right】
+   时长 = 2.200s   Y跨度 = 26.4cm   Z范围 = 9.5 .. 27.1
+   支撑相后退速度：样本 133  中位=22.3  均值=40.6  最大=132.4
+   → 建议 BossJogReferenceSpeed = 22   （380/此值 = 17.05 倍速）
+
+====================================================================
+汇总（填进 BP_Boss 的 Boss|Animation 属性）
+====================================================================
+BossJogReferenceSpeedFwd   = 417   <- Jog_Fwd
+BossJogReferenceSpeedBwd   = 428   <- Jog_Bwd
+BossJogReferenceSpeedLeft  = 12   <- Strafe_Left
+BossJogReferenceSpeedRight = 22   <- Strafe_Right
+
+当前代码里只有一个 BossJogReferenceSpeed = 415（四方向共用）
+→ 建议改成按方向分别取值，否则横移/后撤必然空步。

@@ -1,0 +1,17 @@
+﻿--- ProjectFiles (top 12 by mtime) ---
+09/14/2026 22:01:31  demo.vcxproj.user
+09/09/2026 18:37:36  demo.vcxproj.filters
+09/09/2026 18:37:36  demo.vcxproj
+09/09/2026 18:37:36  UE5.vcxproj.user
+09/09/2026 18:37:36  UE5.vcxproj.filters
+09/09/2026 18:37:36  UE5.vcxproj
+09/09/2026 18:37:34  UECommon.props
+--- .vs tree (files) ---
+09/26/2026 20:28:40  .vs\demo\FileContentIndex\ef40517f-9cda-43c4-aedd-b012438dbf21.vsidx
+09/26/2026 20:27:59  .vs\demo\v18\DocumentLayout.json
+09/26/2026 20:27:54  .vs\demo\v18\Browse.VC.db-wal
+09/26/2026 20:27:54  .vs\demo\v18\Browse.VC.db-shm
+09/26/2026 20:27:48  .vs\demo\v18\Solution.VC.db-shm
+09/26/2026 20:27:48  .vs\demo\v18\Solution.VC.db-wal
+09/26/2026 18:55:39  .vs\demo\v18\Browse.VC.db
+09/26/2026 18:55:39  .vs\demo\v18\fileList.bin

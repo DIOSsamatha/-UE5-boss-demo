@@ -1,0 +1,29 @@
+========== ManualBuild 开始 2026-09-25 12:40:20 ==========
+[manual] 响应文件 37 个：需编译 10，已最新跳过 27，并行度 3
+  [ 1/10] OK   BossBrainComponent.cpp.obj.rsp              17.0s
+  [ 2/10] OK   BossCharacterBase.cpp.obj.rsp               16.9s
+  [ 3/10] OK   CombatHUDWidget.cpp.obj.rsp                 17.6s
+  [ 4/10] OK   DemoAbilitySystemLibrary.cpp.obj.rsp         5.8s
+  [ 5/10] OK   DemoCharacterBase.cpp.obj.rsp                8.3s
+  [ 6/10] OK   DemoGameplayEffects.cpp.obj.rsp              5.2s
+  [ 7/10] OK   FightGameMode.cpp.obj.rsp                    7.0s
+  [ 8/10] FAIL FightPlayerCharacter.cpp.obj.rsp           rc=2   7.3s
+        ---- 输出 ----
+FightPlayerCharacter.cpp
+K:\selfgame\demo\Source\demo\Player\FightPlayerCharacter.cpp(336,15): error C4456: ��Progress����������������һ����������
+		const float Progress = 1.f - (CameraShakeRemaining / FMath::Max(CameraShakeDuration, KINDA_SMALL_NUMBER));
+		            ^
+K:\selfgame\demo\Source\demo\Player\FightPlayerCharacter.cpp(322,14): note: �μ���Progress��������
+	const float Progress = 1.f - (CameraPunchRemaining / CameraPunchDuration);
+	            ^
+K:\selfgame\demo\Source\demo\Player\FightPlayerCharacter.cpp(361,16): error C4456: ��Progress����������������һ����������
+			const float Progress = 1.f - (CameraFOVPulseRemaining / FMath::Max(CameraFOVPulseDuration, KINDA_SMALL_NUMBER));
+			            ^
+K:\selfgame\demo\Source\demo\Player\FightPlayerCharacter.cpp(322,14): note: �μ���Progress��������
+	const float Progress = 1.f - (CameraPunchRemaining / CameraPunchDuration);
+	            ^
+        ----------------
+  [ 9/10] OK   Module.demo.4.cpp.obj.rsp                    7.4s
+  [10/10] OK   PlayerAbilities.cpp.obj.rsp                  5.5s
+[manual] 编译完成：成功 9，失败 1
+========== ManualBuild 结束，结果: 失败 ==========
